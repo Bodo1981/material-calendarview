@@ -16,6 +16,6 @@ allprojects {
     }
     // Is Release Build?
     ext.isReleaseVersion = has("release")
-    ext.versionCodeInt = getProperty('VERSION_CODE').toInteger()
-    version = VERSION_NAME
+    ext.versionCodeInt = 1
+    version = "1.0.0"
 }
